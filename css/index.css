@@ -63,6 +63,7 @@ body {
 .home .title p{
     padding: 40px;
     font-size: 18px;
+    line-height: 25px;
 }
 .home .title a{
     color: white;

@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgb(10, 4, 54);
+    color: white;
+    overflow: auto;
+}
+
+.navbar h1{
+    padding: 20px;
+    float:left;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: 1s all;
+}
+/* about content */
+.about{
+    padding: 10em 0  0 10em;
+}
+.about .left{
+    display:inline-block ;
+    width: 50%;
+    min-height: 100%;
+    margin-right: 40px;
+}
+.about .left h2{
+    font-size: 28px;
+    padding: 0 40px 0 40px;
+}
+.about .left h2 span{
+    color:rgb(10, 4, 54); ;
+}
+.about .left p{
+    font-size: 18px;
+    padding: 25px 0 ;
+    line-height: 30px;
+}
+.about .right {
+    display: inline-block;
+    background-size: cover;
+}
+.about .right img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    width: 400px;
+
+}
+/* cards */
+.cards{
+    background-color: rgb(10, 4, 54);
+    height: 1000px;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+.cards h2{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.cards .card1{
+    padding: 25px 0;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgb(8, 2, 30);
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+.cards .card1 img{
+    width:18%;
+    float: left;
+    margin-right: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+
+}
+.cards .card1 p{
+    font-size: 18px;
+    color: wheat;
+}
+
+
