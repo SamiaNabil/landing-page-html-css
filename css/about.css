@@ -81,15 +81,15 @@ body {
     margin-top: 100px;
 }
 .cards h2{
-    color: aliceblue;
+    color: white;
     text-align: center;
     padding-bottom: 40px;
 }
 .cards .card1{
     padding: 25px 0;
     margin-bottom: 40px;
-    border-radius: 5px;
-    background-color: rgb(8, 2, 30);
+    border-radius: 20px;
+    background-color: rgb(7, 8, 31);
     width: 60%;
     height: 150px;
     margin: 0 auto;
@@ -97,6 +97,7 @@ body {
     
 }
 .cards .card1 img{
+    height: 100%;
     width:18%;
     float: left;
     margin-right: 50px;
@@ -106,7 +107,8 @@ body {
 }
 .cards .card1 p{
     font-size: 18px;
-    color: wheat;
+    color: white;
+    line-height: 30px;
 }
 
 
