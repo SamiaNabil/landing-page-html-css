@@ -110,5 +110,13 @@ body {
     color: white;
     line-height: 30px;
 }
+/* footer */
+.footer {
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(7, 8, 31);
+   
+}
 
 
